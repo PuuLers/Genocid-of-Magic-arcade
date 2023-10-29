@@ -5,11 +5,12 @@ using UnityEngine;
 public class LvlGenerator : MonoBehaviour
 {
     public GameObject[] Rooms;
-    public int LevLength = 10;
+    public int LevLength;
     public Transform Zero;
     public int pref;
     private GameObject LastRoom;
-    //public GameObject BossRoom;
+    public GameObject BossRoom;
+    public GameObject EndRoom;
 
     private void Generate()
     {
@@ -29,6 +30,10 @@ public class LvlGenerator : MonoBehaviour
                 LastRoom = ActiveRoom;
             }
         }
+        Instantiate(BossRoom, Zero);
+        BossRoom.transform.localPosition = new Vector3(0, LevLength * pref, 0);
+        Instantiate(EndRoom, Zero);
+        EndRoom.transform.localPosition = new Vector3(0, LevLength * pref + pref, 0);
     }
 
 

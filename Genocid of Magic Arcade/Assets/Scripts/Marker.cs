@@ -5,23 +5,16 @@ using UnityEngine.UIElements;
 
 public class Marker : MonoBehaviour
 {
-    [SerializeField] private int rotationSpeed;
-    [SerializeField] private int rotationBoost;
-    [SerializeField] private int rotationSpeedMax;
+    [SerializeField] private float rotationSpeed;
+    [SerializeField] private float rotationBoost;
+    [SerializeField] private float rotationSpeedMax;
     
     private void Update()
     {
         Rotate(rotationSpeed);
         RotateMarker();
         Boost();
-        //SpeedLimit();
-    }
-    private void SpeedLimit()
-    {
-        if (rotationSpeed > rotationSpeedMax)
-        {
-            rotationSpeed = rotationSpeedMax;
-        }
+       
     }
     private void Boost()
     {
@@ -34,7 +27,7 @@ public class Marker : MonoBehaviour
             rotationSpeed += rotationBoost;
         }
     }
-    private void Rotate(int speed)
+    private void Rotate(float speed)
     {
         Vector3 currentRotation = transform.rotation.eulerAngles;
         currentRotation.z += speed * Time.deltaTime;

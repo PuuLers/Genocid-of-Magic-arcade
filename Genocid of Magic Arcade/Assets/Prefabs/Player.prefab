@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 100
-  rotationBoost: 1
+  rotationBoost: 0.6
   rotationSpeedMax: 600
 --- !u!1 &5624206311607651703
 GameObject:
