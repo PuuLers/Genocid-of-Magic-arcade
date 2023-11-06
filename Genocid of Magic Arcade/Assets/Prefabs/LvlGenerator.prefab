@@ -50,6 +50,6 @@ MonoBehaviour:
   - {fileID: 2552221153041590320, guid: 35d445f9f2f59314c8affb5f0b2a4271, type: 3}
   LevLength: 5
   Zero: {fileID: 3140790521939508884}
-  pref: 5
+  pref: 4.26
   BossRoom: {fileID: 2552221153041590320, guid: 570d15d44f0ec0b42811ffcc726b3a82, type: 3}
   EndRoom: {fileID: 2552221153041590320, guid: f1e940100957cc3409cca6a3c3380fd0, type: 3}

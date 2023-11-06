@@ -5,26 +5,28 @@ using UnityEngine.UIElements;
 
 public class Marker : MonoBehaviour
 {
-    [SerializeField] private float rotationSpeed;
-    [SerializeField] private float rotationBoost;
-    [SerializeField] private float rotationSpeedMax;
+    [SerializeField] private float _rotationSpeed;
+    [SerializeField] private float _rotationBoost;
+    [SerializeField] private float _rotationSpeedMax;
     
+
+
     private void Update()
     {
-        Rotate(rotationSpeed);
+        Rotate(_rotationSpeed);
         RotateMarker();
         Boost();
-       
+        
     }
     private void Boost()
     {
-        if (rotationSpeed < 0 && rotationSpeed > -rotationSpeedMax)
+        if (_rotationSpeed < 0 && _rotationSpeed > -_rotationSpeedMax)
         {
-            rotationSpeed += -rotationBoost;
+            _rotationSpeed += -_rotationBoost;
         }
-        else if (rotationSpeed > 0 && rotationSpeed < rotationSpeedMax)
+        else if (_rotationSpeed > 0 && _rotationSpeed < _rotationSpeedMax)
         {
-            rotationSpeed += rotationBoost;
+            _rotationSpeed += _rotationBoost;
         }
     }
     private void Rotate(float speed)
@@ -38,16 +40,16 @@ public class Marker : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (rotationSpeed < 0)
+            if (_rotationSpeed < 0)
             {
-                rotationSpeed = -1;
+                _rotationSpeed = -1;
             }
-            else if (rotationSpeed > 0)
+            else if (_rotationSpeed > 0)
             {
-                rotationSpeed = 1;
+                _rotationSpeed = 1;
             }
-            rotationSpeed *= -1;
-            
+            _rotationSpeed *= -1;           
         }
     }
+
 }

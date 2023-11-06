@@ -7,7 +7,7 @@ public class LvlGenerator : MonoBehaviour
     public GameObject[] Rooms;
     public int LevLength;
     public Transform Zero;
-    public int pref;
+    public float pref;
     private GameObject LastRoom;
     public GameObject BossRoom;
     public GameObject EndRoom;
