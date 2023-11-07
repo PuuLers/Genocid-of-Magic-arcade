@@ -245,9 +245,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7f1fc4eaf724e04b89b416310c17f36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 100
-  rotationBoost: 0.6
-  rotationSpeedMax: 600
+  _rotationSpeed: 1
+  _rotationBoost: 0.5
+  _rotationSpeedMax: 600
 --- !u!1 &5574161077571016267
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5574161077571016267}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.261, z: -0.03}
+  m_LocalPosition: {x: 0, y: -0.261, z: -0.073}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -363,7 +363,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &5741118453605475763
 BoxCollider2D:
   m_ObjectHideFlags: 0

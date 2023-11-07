@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     static public Transform[] ActiveRoomArray;
-    public float Speed = 5f;
+    public float Speed;
     static public int ActivePoint;
     //public int bullets;
     //public int money;
@@ -23,9 +23,9 @@ public class Player : MonoBehaviour
         if (ActivePoint < ActiveRoomArray.Length)
         {
             Transform targetPoint = ActiveRoomArray[ActivePoint];
-            transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, Speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, targetPoint.position, Speed * Time.deltaTime);
 
-            if (Vector3.Distance(transform.position, targetPoint.position) < 0.1f)
+            if (Vector2.Distance(transform.position, targetPoint.position) < 0.1f)
             {
                 ActivePoint++;
             }

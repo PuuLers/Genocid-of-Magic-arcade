@@ -716,8 +716,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: -0.5
-  far clip plane: 2
+  near clip plane: -1.3
+  far clip plane: 5.6400003
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -1109,6 +1109,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4816076666022801262, guid: 15ba721f342ca22488f78f15444e2be6, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5624206312260509414, guid: 15ba721f342ca22488f78f15444e2be6, type: 3}
       propertyPath: m_RootOrder
       value: 2
