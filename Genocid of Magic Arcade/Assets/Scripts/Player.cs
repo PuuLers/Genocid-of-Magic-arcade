@@ -18,6 +18,24 @@ public class Player : MonoBehaviour
     //public Animator CamAnim;
     //public GameObject Marker;
 
+
+    //private void flip()
+    //{
+    //    float GunAngle = Weapons._rotZ;
+    //    Vector3 LocalScale = Vector3.one;
+    //    if (GunAngle < 0 || GunAngle > 180)
+    //    {
+    //        LocalScale.x = LocalScale.x * -1f;
+    //    }
+    //    else
+    //    {
+    //        LocalScale.x = LocalScale.x * +1f;
+    //    }
+    //    transform.localScale = LocalScale;
+    //}
+
+
+
     private void GoToPoint()
     {
         if (ActivePoint < ActiveRoomArray.Length)
@@ -36,6 +54,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         GoToPoint();
+        //flip();
     }
 
 

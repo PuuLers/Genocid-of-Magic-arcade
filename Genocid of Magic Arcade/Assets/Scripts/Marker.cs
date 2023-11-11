@@ -8,8 +8,13 @@ public class Marker : MonoBehaviour
     [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _rotationBoost;
     [SerializeField] private float _rotationSpeedMax;
-    
+    [SerializeField] private GameObject _bullet;
+    [SerializeField] private Transform _shootPoint;
 
+    private void Shoot()
+    {
+        Instantiate(_bullet, _shootPoint.position, transform.rotation);
+    }
 
     private void Update()
     {
@@ -48,7 +53,8 @@ public class Marker : MonoBehaviour
             {
                 _rotationSpeed = 1;
             }
-            _rotationSpeed *= -1;           
+            _rotationSpeed *= -1;
+            Shoot();
         }
     }
 
