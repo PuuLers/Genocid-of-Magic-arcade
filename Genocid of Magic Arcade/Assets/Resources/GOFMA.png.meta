@@ -3140,7 +3140,7 @@ TextureImporter:
         width: 5
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3161,7 +3161,7 @@ TextureImporter:
         width: 28
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3182,7 +3182,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3203,7 +3203,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3224,7 +3224,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3245,7 +3245,7 @@ TextureImporter:
         width: 19
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3266,7 +3266,7 @@ TextureImporter:
         width: 12
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3274,6 +3274,153 @@ TextureImporter:
       bones: []
       spriteID: b870858c3b8692a4d84bf9b0a5fc6113
       internalID: 357935191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 558
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e737a0d74761f48a1e273642a74353
+      internalID: -358556601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 590
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf6e11264b691d46a9d31ca6fa97e24
+      internalID: -1182317516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 622
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467c097d0aff71e48bb6dad78ae2ad45
+      internalID: -912473532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_153
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 526
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c05535a4b76609439e0e6e5084b8ab3
+      internalID: -1575408457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_154
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 494
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68325119461f63649bd9ca0dc72597e4
+      internalID: -1103122781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_155
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 462
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d5f7f985b6d0940a661272f2b15f8e
+      internalID: -617407714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 430
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583a1a9559d67864cb28f182680f6512
+      internalID: -1723906914
       vertices: []
       indices: 
       edges: []
@@ -3347,6 +3494,13 @@ TextureImporter:
       GOFMA_148: 694348689
       GOFMA_149: 357935191
       GOFMA_15: 389375052
+      GOFMA_150: -241375599
+      GOFMA_151: -111774939
+      GOFMA_152: -493767251
+      GOFMA_153: -358556601
+      GOFMA_154: -1182317516
+      GOFMA_155: -912473532
+      GOFMA_156: -1575408457
       GOFMA_16: 1790821546
       GOFMA_17: -1662754805
       GOFMA_18: 1973810040

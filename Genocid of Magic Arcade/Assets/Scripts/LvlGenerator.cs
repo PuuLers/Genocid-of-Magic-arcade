@@ -5,35 +5,54 @@ using UnityEngine;
 public class LvlGenerator : MonoBehaviour
 {
     public GameObject[] Rooms;
-    public int LevLength;
+    private int _LevLength;
+    public int LevLengthMax;
+    public int LevLengthMin;
     public Transform Zero;
     public float pref;
-    private GameObject LastRoom;
+    private GameObject _LastRoom;
     public GameObject BossRoom;
     public GameObject EndRoom;
 
+
+    private void LevLengthGenerate()
+    {
+        int rand = Random.Range(LevLengthMin, LevLengthMax);
+        _LevLength = rand;
+    }
+
     private void Generate()
     {
-        for (int i = 0; i < LevLength; i++)
+        LevLengthGenerate();
+        for (int i = 0; i < _LevLength; i++)
         {
-            int rand = Random.Range(0, Rooms.Length);
-            GameObject ActiveRoom = Rooms[rand];
+            if (i < _LevLength - 2) 
+            {
 
-            if (LastRoom == ActiveRoom && i != 0)
-            {
-                i--;
-            }
-            else
-            {
-                var Cell = Instantiate(ActiveRoom, Zero);
-                Cell.transform.localPosition = new Vector3(0, i * pref, 0);
-                LastRoom = ActiveRoom;
+                int rand = Random.Range(0, Rooms.Length);
+                GameObject ActiveRoom = Rooms[rand];
+
+                if (_LastRoom == ActiveRoom && i != 0)
+                {
+                    i--;
+                }
+                else
+                {
+                    var Cell = Instantiate(ActiveRoom, Zero);
+                    Cell.transform.localPosition = new Vector3(0, i * pref, 0);
+                    _LastRoom = ActiveRoom;
+                }
+                if (i == _LevLength -2)
+                {
+                    var Cell = Instantiate(BossRoom, Zero);
+                    Cell.transform.localPosition = new Vector3(0, i * pref, 0);
+                }
+                else if (i == _LevLength -1)
+                {
+
+                }
             }
         }
-        Instantiate(BossRoom, Zero);
-        BossRoom.transform.localPosition = new Vector3(0, LevLength * pref, 0);
-        Instantiate(EndRoom, Zero);
-        EndRoom.transform.localPosition = new Vector3(0, LevLength * pref + pref, 0);
     }
 
 
@@ -42,6 +61,7 @@ public class LvlGenerator : MonoBehaviour
     void Start()
     {
         Generate();
+        Debug.Log(_LevLength);
     }
 
 

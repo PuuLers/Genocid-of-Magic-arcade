@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour
 {
@@ -8,29 +9,23 @@ public class Bullet : MonoBehaviour
     [Range(0.1f, 50f)]
     public int Spread = 10;
     public static int Damage;
-    public LayerMask WhatIsSolid;
-    public float distance;
 
     void Update()
     {
         transform.Translate(Vector2.right * Speed * Time.deltaTime);
         
     }
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.gameObject.CompareTag("Enemy"))
-        //{
-        //    Destroy(gameObject);
-        //    Destroy(collision.gameObject);
-        //}
-        //else if (collision.gameObject.CompareTag("Room"))
-        //{
-        //    Destroy(gameObject);
-        //}
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
     }
 
-  
+
 
     private void Start()
     {

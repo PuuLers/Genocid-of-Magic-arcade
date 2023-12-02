@@ -39,7 +39,7 @@ public class Marker : MonoBehaviour
         Vector3 currentRotation = transform.rotation.eulerAngles;
         currentRotation.z += speed * Time.deltaTime;
         transform.rotation = Quaternion.Euler(currentRotation);
-        Debug.Log(speed);
+        //Debug.Log(speed);
     }
     private void RotateMarker()
     {
