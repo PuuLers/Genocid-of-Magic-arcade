@@ -48,8 +48,8 @@ MonoBehaviour:
   - {fileID: 2552221153041590320, guid: c2abd917d1230024b92f95a01ea01645, type: 3}
   - {fileID: 2552221153041590320, guid: f55c08b990d30bc4ca8eb3187ab9e18d, type: 3}
   - {fileID: 2552221153041590320, guid: 35d445f9f2f59314c8affb5f0b2a4271, type: 3}
-  LevLengthMax: 2
-  LevLengthMin: 6
+  LevLengthMax: 4
+  LevLengthMin: 10
   Zero: {fileID: 3140790521939508884}
   pref: 4.26
   BossRoom: {fileID: 2552221153041590320, guid: 570d15d44f0ec0b42811ffcc726b3a82, type: 3}

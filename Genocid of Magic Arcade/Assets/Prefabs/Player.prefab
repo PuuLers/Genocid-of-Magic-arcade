@@ -963,8 +963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationSpeed: 1
-  _rotationBoost: 0.6
-  _rotationSpeedMax: 600
+  _rotationBoost: 5
+  _rotationSpeedMax: 500
   _bullet: {fileID: 4743646223899918399, guid: 1cdeb5be1411cd249a687e3c7e644121, type: 3}
   _shootPoint: {fileID: 6541786737213472797}
 --- !u!1 &3676322197545173547

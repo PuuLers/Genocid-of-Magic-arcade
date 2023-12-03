@@ -13,16 +13,24 @@ public class Marker : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(_bullet, _shootPoint.position, transform.rotation);
+        if (Input.GetMouseButtonDown(0))
+        {
+            Instantiate(_bullet, _shootPoint.position, transform.rotation);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        Boost();
+        Rotate(_rotationSpeed);
     }
 
     private void Update()
     {
-        Rotate(_rotationSpeed);
         RotateMarker();
-        Boost();
-        
+        Shoot();
     }
+
     private void Boost()
     {
         if (_rotationSpeed < 0 && _rotationSpeed > -_rotationSpeedMax)
@@ -54,7 +62,6 @@ public class Marker : MonoBehaviour
                 _rotationSpeed = 1;
             }
             _rotationSpeed *= -1;
-            Shoot();
         }
     }
 

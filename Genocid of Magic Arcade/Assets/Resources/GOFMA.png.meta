@@ -1626,7 +1626,7 @@ TextureImporter:
         x: 640
         y: 462
         width: 24
-        height: 11
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1647,7 +1647,7 @@ TextureImporter:
         x: 640
         y: 446
         width: 24
-        height: 11
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3425,6 +3425,405 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GOFMA_157
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 382
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae19d3c94974dd48afa4eaa1a648911
+      internalID: -1339299200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_158
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 414
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3396697e9c8cf444589713a0839ff715
+      internalID: 691342943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_159
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56385c073bdc83c4e897d2e8533e87a5
+      internalID: 2125578273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_160
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850c2cea4fecfaa4c8ce01ee46500e4e
+      internalID: 888679220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_161
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 430
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d731d4ac5c4fe94b815c30ddba40c0f
+      internalID: 838297991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_162
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 446
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25b8b8a46ca88a4ebee3fe9ef542b1c
+      internalID: -1595968573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_163
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 446
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865e8aa6fd6fc6e41b6d764ecd7c62ff
+      internalID: 712941838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_164
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 446
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caccff944d36ce44add88fe0c6b3e82
+      internalID: 1813419280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_165
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 391
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ee3caedcd2bc247b7fd2c46dfb213a
+      internalID: 1380292407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_166
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 391
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5b240ffa290ae438b1dc8a1a3e13f5
+      internalID: -1193596636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_167
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 389
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef5e82f8a210b40a38eff2e8384d07
+      internalID: 876337904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_168
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 510
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022b765cda5ab3346a6ffe379151a32d
+      internalID: -1147745062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_169
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 510
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0512d6d43f431594dbc90564b7cd4e84
+      internalID: 173145353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_170
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 510
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017b3ce7c02ebef4caffe93ffc796a46
+      internalID: -389797809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_171
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 510
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541188a196746d443982a6cd27111d45
+      internalID: -867287315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_172
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 526
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec586caa898a88542b90a7633787a25f
+      internalID: -365242841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_173
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 526
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3e591ebf094fc4faf650d2447a40c8
+      internalID: 1105866066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_174
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 526
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4c9dc0fb861a469378363f1d8e5e0
+      internalID: 80872369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOFMA_175
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 526
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996f52518e9a3e4a9711522ca470e38
+      internalID: -1474510631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3501,8 +3900,27 @@ TextureImporter:
       GOFMA_154: -1182317516
       GOFMA_155: -912473532
       GOFMA_156: -1575408457
+      GOFMA_157: 726976015
+      GOFMA_158: -1339299200
+      GOFMA_159: 691342943
       GOFMA_16: 1790821546
+      GOFMA_160: -218982840
+      GOFMA_161: -1094853915
+      GOFMA_162: 2125578273
+      GOFMA_163: 888679220
+      GOFMA_164: 838297991
+      GOFMA_165: -1595968573
+      GOFMA_166: 712941838
+      GOFMA_167: 1813419280
+      GOFMA_168: 1380292407
+      GOFMA_169: -1193596636
       GOFMA_17: -1662754805
+      GOFMA_170: 876337904
+      GOFMA_171: -1147745062
+      GOFMA_172: 173145353
+      GOFMA_173: -1089885921
+      GOFMA_174: -389797809
+      GOFMA_175: -867287315
       GOFMA_18: 1973810040
       GOFMA_19: -615879830
       GOFMA_2: 1627025183

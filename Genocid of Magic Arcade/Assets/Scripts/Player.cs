@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -10,35 +11,16 @@ public class Player : MonoBehaviour
     static public Transform[] ActiveRoomArray;
     public float Speed;
     static public int ActivePoint;
-    //public int bullets;
-    //public int money;
-    //public TextMeshPro bulletsText;
-    //public TextMesh moneyText;
-    //public bool GameMode = false;
-    //public Animator CamAnim;
-    //public GameObject Marker;
+    private bool _gameMode = false;
 
-
-    //private void flip()
-    //{
-    //    float GunAngle = Weapons._rotZ;
-    //    Vector3 LocalScale = Vector3.one;
-    //    if (GunAngle < 0 || GunAngle > 180)
-    //    {
-    //        LocalScale.x = LocalScale.x * -1f;
-    //    }
-    //    else
-    //    {
-    //        LocalScale.x = LocalScale.x * +1f;
-    //    }
-    //    transform.localScale = LocalScale;
-    //}
-
-
-
-    private void GoToPoint()
+    public void Stop()
     {
-        if (ActivePoint < ActiveRoomArray.Length)
+        Speed = 0;
+    }
+
+    public void GoToPoint()
+    {
+        if (ActivePoint < ActiveRoomArray.Length && _gameMode == true)
         {
             Transform targetPoint = ActiveRoomArray[ActivePoint];
             transform.position = Vector2.MoveTowards(transform.position, targetPoint.position, Speed * Time.deltaTime);
@@ -50,11 +32,17 @@ public class Player : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            _gameMode = true;
+        }
+    }
+
+    private void FixedUpdate()
+    {
         GoToPoint();
-        //flip();
     }
 
 
