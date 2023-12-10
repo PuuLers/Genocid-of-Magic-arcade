@@ -69,6 +69,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2860757688743891398}
   - component: {fileID: 2923684488089590445}
+  - component: {fileID: 6826782209605993911}
   m_Layer: 0
   m_Name: GOFMA_150
   m_TagString: Untagged
@@ -129,8 +130,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -149581043
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -358556601, guid: 45db60143afa184488b02cfb6b049504, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -143,3 +144,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6826782209605993911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5209625924910850704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a92abaff9abcc438b88b12085a3fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStatic: 1

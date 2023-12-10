@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Marker : MonoBehaviour
+public class Marker : Weapons
 {
     [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _rotationBoost;
     [SerializeField] private float _rotationSpeedMax;
     [SerializeField] private GameObject _bullet;
     [SerializeField] private Transform _shootPoint;
-
+    
     private void Shoot()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Instantiate(_bullet, _shootPoint.position, transform.rotation);
+            if (Player.Ammo > 0)
+            {
+                Instantiate(_bullet, _shootPoint.position, transform.rotation);
+                Player.Ammo--;
+            }
         }
     }
 

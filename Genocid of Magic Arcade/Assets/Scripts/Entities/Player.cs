@@ -12,6 +12,26 @@ public class Player : MonoBehaviour
     public float Speed;
     static public int ActivePoint;
     private bool _gameMode = false;
+    private Transform _playerTransform;
+    static public int Money;
+    static public int Ammo = 30;
+    public Text MoneyText;
+    public Text AmmoText;
+
+    public void BuyAmmo()
+    {
+        Money--;
+        Ammo++;
+    }
+
+
+
+    private void ShowParemetrs()
+    {
+        AmmoText.text = " " + Ammo;
+    }
+
+
 
     public void Stop()
     {
@@ -32,12 +52,22 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        _playerTransform = GetComponent<Transform>();
+        _playerTransform.localScale = _playerTransform.localScale * 1;
+
+
+    }
+
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             _gameMode = true;
         }
+        ShowParemetrs();
     }
 
     private void FixedUpdate()

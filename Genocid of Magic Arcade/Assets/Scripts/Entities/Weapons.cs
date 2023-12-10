@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
-public class Weapons : MonoBehaviour
+public class Weapons : Player
 {
     //[SerializeField] private float _speed;
     private Transform _weapon;

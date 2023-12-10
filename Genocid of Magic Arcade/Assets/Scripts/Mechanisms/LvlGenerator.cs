@@ -14,21 +14,21 @@ public class LvlGenerator : MonoBehaviour
     public GameObject EndRoom;
 
 
-    private int LevLength()
+    private int RandNumber(int max, int min)
     {
-        int rand = Random.Range(LevLengthMin, LevLengthMax);
+        int rand = Random.Range(max, min);
         return rand;
     }
 
     private void Generate()
     {
-        int Lehght = LevLength();
+        int Lehght = RandNumber(LevLengthMin, LevLengthMax);
         for (int i = 0; i < Lehght; i++)
         {
             if (i < Lehght)
             {
-                GameObject LastRoom = null;
                 int rand = Random.Range(0, Rooms.Length);
+                GameObject LastRoom = null;
                 GameObject ActiveRoom = Rooms[rand];
 
                 if (LastRoom == ActiveRoom && i != 0)
